@@ -143,13 +143,13 @@ def _parse_args() -> argparse.Namespace:
         epilog="""
 Examples:
   # Single PDF
-  python3 app.py --files data/raw/paper.pdf --save-plots
+  python3 main.py --files data/raw/paper.pdf --save-plots
 
   # Single TXT
-  python3 app.py --files data/raw/notes.txt --save-plots
+  python3 main.py --files data/raw/notes.txt --save-plots
 
   # Multiple documents combined
-  python3 app.py --files data/raw/paper1.pdf data/raw/paper2.pdf data/raw/notes.txt --save-plots
+  python3 main.py --files data/raw/paper1.pdf data/raw/paper2.pdf data/raw/notes.txt --save-plots
 """,
     )
     parser.add_argument(
